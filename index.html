@@ -15,7 +15,7 @@
     data-color="#1a1a2e"
     data-fab-text="Talk to Us"
     data-bot-name="Alpha Auto Haus AI Receptionist"
-    data-greeting-message="Thank you for calling Alpha Auto Haus! I can schedule a service appointment, answer questions about your vehicle, or get your information to our team. How can I help you today?"
+    data-greeting-message="Thank you for calling Alpha Auto Haus! I can get you a quote, answer questions about our paint and body services, or schedule a drop-off. How can I help you today?"
   ></script>
 
   <style>
@@ -51,15 +51,6 @@
       padding: 20px;
     }
 
-    body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
-      background:
-        radial-gradient(ellipse at 10% 40%, rgba(26,26,46,.9) 0%, transparent 55%),
-        radial-gradient(ellipse at 85% 15%, rgba(201,168,76,.08) 0%, transparent 45%);
-      pointer-events: none;
-    }
 
     /* ─── Card ─── */
     .card {
@@ -341,6 +332,8 @@
   <symbol id="i-clock" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></symbol>
   <symbol id="i-mic" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1a3 3 0 00-3 3v8a3 3 0 006 0V4a3 3 0 00-3-3z"/><path d="M19 10v2a7 7 0 01-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></symbol>
   <symbol id="i-user" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2"/><circle cx="12" cy="7" r="4"/></symbol>
+  <symbol id="i-brush" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 3a3 3 0 00-3 3l-7 7a3 3 0 104.24 4.24L15 10a3 3 0 003-3V3z"/><path d="M7 21a3 3 0 010-6h.01"/></symbol>
+  <symbol id="i-eye" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/></symbol>
   <symbol id="i-arrow-dr" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="5" x2="19" y2="19"/><polyline points="13 19 19 19 19 13"/></symbol>
 </svg>
 
@@ -353,7 +346,7 @@
     </div>
     <div class="brand">
       <h1>Alpha Auto Haus</h1>
-      <p>Premium Auto Service &amp; Repair</p>
+      <p>Paint &amp; Body Shop</p>
     </div>
     <div class="ai-badge">AI Demo</div>
   </div>
@@ -365,25 +358,25 @@
     <div class="left">
       <h2>Your <span class="accent">AI Receptionist</span><br>Always Answers</h2>
       <p class="tagline">
-        Alpha Auto Haus's AI is available around the clock — scheduling appointments, answering service questions, and capturing customer details so your team can focus on the work.
+        Alpha Auto Haus's AI is available around the clock — answering questions about paint and body work, collecting quote details, and scheduling drop-offs so your team can stay focused on the craft.
       </p>
 
       <ul class="features">
         <li>
           <div class="icon-wrap"><svg width="12" height="12"><use href="#i-check"/></svg></div>
-          <span><strong>Schedule appointments</strong> — book service visits and drop-offs by voice</span>
+          <span><strong>Collect quote details</strong> — damage description, vehicle info, and photos needed</span>
         </li>
         <li>
           <div class="icon-wrap"><svg width="12" height="12"><use href="#i-check"/></svg></div>
-          <span><strong>Answer service questions</strong> — pricing, availability, what's covered</span>
+          <span><strong>Schedule drop-offs &amp; estimates</strong> — book appointments by voice, anytime</span>
         </li>
         <li>
           <div class="icon-wrap"><svg width="12" height="12"><use href="#i-check"/></svg></div>
-          <span><strong>Capture customer info</strong> — vehicle, issue, name, and contact details</span>
+          <span><strong>Answer paint &amp; body questions</strong> — process, timeline, insurance, pricing</span>
         </li>
         <li>
           <div class="icon-wrap"><svg width="12" height="12"><use href="#i-check"/></svg></div>
-          <span><strong>After-hours coverage</strong> — handles calls when the shop is closed</span>
+          <span><strong>After-hours coverage</strong> — never miss a lead when the shop is closed</span>
         </li>
       </ul>
 
@@ -400,12 +393,12 @@
 
       <!-- Services grid -->
       <div class="svc-grid">
-        <div class="svc"><svg width="13" height="13"><use href="#i-oil"/></svg> Oil Changes</div>
-        <div class="svc"><svg width="13" height="13"><use href="#i-brake"/></svg> Brakes</div>
-        <div class="svc"><svg width="13" height="13"><use href="#i-engine"/></svg> Engine Repair</div>
-        <div class="svc"><svg width="13" height="13"><use href="#i-wrench"/></svg> Diagnostics</div>
-        <div class="svc"><svg width="13" height="13"><use href="#i-shield"/></svg> Maintenance</div>
-        <div class="svc"><svg width="13" height="13"><use href="#i-zap"/></svg> Electrical</div>
+        <div class="svc"><svg width="13" height="13"><use href="#i-brush"/></svg> Paint &amp; Refinish</div>
+        <div class="svc"><svg width="13" height="13"><use href="#i-wrench"/></svg> Collision Repair</div>
+        <div class="svc"><svg width="13" height="13"><use href="#i-shield"/></svg> Dent Removal</div>
+        <div class="svc"><svg width="13" height="13"><use href="#i-star"/></svg> Color Matching</div>
+        <div class="svc"><svg width="13" height="13"><use href="#i-zap"/></svg> Frame &amp; Structural</div>
+        <div class="svc"><svg width="13" height="13"><use href="#i-eye"/></svg> Insurance Claims</div>
       </div>
 
       <!-- Demo CTA -->
@@ -424,7 +417,7 @@
       <!-- What to try -->
       <div class="say-box">
         <div class="label">What to try</div>
-        <p>"Hi, my check engine light came on and I need to get it looked at. Do you have any openings this week?"</p>
+        <p>"Hi, I was in a fender bender and need a repair estimate. My front bumper and hood have some damage — can I bring it in this week?"</p>
       </div>
 
     </div>
@@ -432,7 +425,7 @@
 
   <!-- Footer -->
   <div class="footer-strip">
-    <p>Alpha Auto Haus — Premium Auto Service &amp; Repair</p>
+    <p>Alpha Auto Haus — Paint &amp; Body Shop</p>
     <p class="powered">Powered by Retell AI</p>
   </div>
 
